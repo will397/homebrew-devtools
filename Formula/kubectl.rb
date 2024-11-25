@@ -1,17 +1,17 @@
 class Kubectl < Formula
   desc "Kubernetes command-line interface"
   homepage "https://kubernetes.io/"
-  version "1.29.1"
+  version "1.13.3"
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://dl.k8s.io/release/v#{version}/bin/darwin/arm64/kubectl"
-    sha256 "9fa3fb048ba873166ad26dc6c78a805007241a227f135da817702e920b4c9811"
+    sha256 "ebd2aab3f186b3fcc8aa0c95536620cc4439ba0f43e0cbe69bd4e49c8074e5ec"
   elsif OS.mac? && Hardware::CPU.intel?
     url "https://dl.k8s.io/release/v#{version}/bin/darwin/amd64/kubectl"
-    sha256 "e181209c43da4cd17eb9cde4b810a621d54164d6670628721ca2c0c9c1ad94cf"
+    sha256 "2ff06345a02636f1e6934f19dbc55452b587e06b2828c775dcdb29229c8da40f"
   elsif OS.linux? && Hardware::CPU.intel?
     url "https://dl.k8s.io/release/v#{version}/bin/linux/amd64/kubectl"
-    sha256 "69ab3a931e826bf7ac14d38ba7ca637d66a6fcb1ca0e3333a2cafdf15482af9c"
+    sha256 "f3be209a48394e0e649b30ea376ce5093205fd6769c12e62c7ab39a0827c26fb"
   end
 
   def install
