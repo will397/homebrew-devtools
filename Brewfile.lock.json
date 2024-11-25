@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "will397/devtools": {
-        "revision": "d211e030af50ebbd11fdd8432b70b1cad461e9a9"
+        "revision": "80d0847bc60bbfd24ea8785d006de0769f5a8834"
       }
     },
     "brew": {
@@ -24,6 +24,26 @@
       },
       "will397/devtools/jq": {
         "version": "1.7.1",
+        "bottle": false
+      },
+      "will397/devtools/kind": {
+        "version": "0.25.0",
+        "bottle": false
+      },
+      "will397/devtools/kubectl": {
+        "version": "1.13.3",
+        "bottle": false
+      },
+      "will397/devtools/kustomize": {
+        "version": "5.5.0",
+        "bottle": false
+      },
+      "will397/devtools/terraform": {
+        "version": "1.5.7",
+        "bottle": false
+      },
+      "will397/devtools/yq": {
+        "version": "4.44.5",
         "bottle": false
       }
     }
