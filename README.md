@@ -10,17 +10,26 @@ homebrew-devtools/
 │   ├── argocd.rb
 │   ├── aws-cli.rb
 │   ├── bazelisk.rb
-│   ├── helm.rb
-│   └── jq.rb
+│   ├── jq.rb
+│   ├── kind.rb
+│   ├── kubectl.rb
+│   ├── kustomize.rb
+│   ├── terraform.rb
+│   └── yq.rb
 └── README.md
 ```
 
 ## Available Tools
 - argocd (v2.13.1)
-- aws-cli (v2.15.0)
-- bazelisk (v1.19.0)
-- helm (v3.13.3)
+- aws-cli (v2.22.4)
+- bazelisk (v1.24.0)
+- helm (v3.16.3)
 - jq (v1.7.1)
+- kind (v0.25.0)
+- kubectl (v1.13.3)
+- kustomize (v5.5.0)
+- terraform (v1.5.7)
+- yq (v4.44.5)
 
 ## Installation
 
@@ -37,18 +46,13 @@ brew install will397/devtools/aws-cli
 brew install will397/devtools/bazelisk
 brew install will397/devtools/helm
 brew install will397/devtools/jq
+brew install will397/devtools/kind
+brew install will397/devtools/kubectl
+brew install will397/devtools/kustomize
+brew install will397/devtools/terraform
+brew install will397/devtools/yq
 
 # Install all tools
 brew update
 brew bundle
-```
-
-## Brewfile Example
-```ruby
-tap "will397/devtools"
-brew "will397/devtools/argocd"
-brew "will397/devtools/aws-cli"
-brew "will397/devtools/bazelisk"
-brew "will397/devtools/helm"
-brew "will397/devtools/jq"
 ```
