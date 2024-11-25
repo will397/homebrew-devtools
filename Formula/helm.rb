@@ -15,8 +15,8 @@ class Helm < Formula
   end
 
   def install
-    system "tar", "xf", "helm-v#{version}-linux-amd64.tar.gz"
-    bin.install Dir["linux-amd64/helm"].first
+    system "tar", "xzf", cached_download
+    bin.install "linux-amd64/helm"
   end
 
   test do
