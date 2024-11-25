@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "will397/devtools": {
-        "revision": "7189d63b0b94003ce7c79293ab6f35424622cc0c"
+        "revision": "3a3d232415edf73d88427e65800f8a1f8a320498"
       }
     },
     "brew": {
@@ -12,6 +12,18 @@
       },
       "will397/devtools/aws-cli": {
         "version": "2.22.4",
+        "bottle": false
+      },
+      "will397/devtools/bazelisk": {
+        "version": "1.24.0",
+        "bottle": false
+      },
+      "will397/devtools/helm": {
+        "version": "3.16.3",
+        "bottle": false
+      },
+      "will397/devtools/jq": {
+        "version": "1.7.1",
         "bottle": false
       }
     }
