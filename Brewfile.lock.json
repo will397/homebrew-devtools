@@ -1,0 +1,29 @@
+{
+  "entries": {
+    "tap": {
+      "will397/devtools": {
+        "revision": "7189d63b0b94003ce7c79293ab6f35424622cc0c"
+      }
+    },
+    "brew": {
+      "will397/devtools/argocd": {
+        "version": "2.13.1",
+        "bottle": false
+      },
+      "will397/devtools/aws-cli": {
+        "version": "2.22.4",
+        "bottle": false
+      }
+    }
+  },
+  "system": {
+    "linux": {
+      "Ubuntu 22.04.5 LTS (jammy)": {
+        "HOMEBREW_VERSION": "4.4.7",
+        "HOMEBREW_PREFIX": "/home/linuxbrew/.linuxbrew",
+        "Homebrew/homebrew-core": "api",
+        "GCC": "11.4.0"
+      }
+    }
+  }
+}
