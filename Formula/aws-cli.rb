@@ -11,7 +11,7 @@ class AwsCli < Formula
     sha256 "ba020997822c9d929d1e0511d7655808c31df8f60498b14b6a49387b9d6edc7a"
   elsif OS.linux? && Hardware::CPU.intel?
     url "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-#{version}.zip"
-    sha256 "REPLACE_WITH_LINUX_SHA256"
+    sha256 "f3d6683a0e332fa08963c7753ede74a557b4e2c76532f1f34a3a6bc673788a0f"
   end
 
   def install
