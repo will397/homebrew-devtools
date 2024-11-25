@@ -15,8 +15,7 @@ class Helm < Formula
   end
 
   def install
-    system "tar", "-xf", "helm-v#{version}-linux-amd64.tar.gz"
-    bin.install "helm"
+    bin.install "linux-amd64/helm"
   end
 
   test do
