@@ -15,7 +15,11 @@ class Helm < Formula
   end
 
   def install
-    bin.install "darwin-#{Hardware::CPU.arm? ? 'arm64' : 'amd64'}/helm"
+    if OS.linux?
+      bin.install "linux-amd64/helm"
+    else
+      bin.install "darwin-#{Hardware::CPU.arm? ? 'arm64' : 'amd64'}/helm"
+    end
   end
 
   test do
