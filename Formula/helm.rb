@@ -15,11 +15,8 @@ class Helm < Formula
   end
 
   def install
-    if OS.linux?
-      bin.install "linux-amd64/helm"
-    else
-      bin.install "darwin-#{Hardware::CPU.arm? ? 'arm64' : 'amd64'}/helm"
-    end
+    system "tar", "-xf", "helm-v#{version}-linux-amd64.tar.gz"
+    bin.install "helm"
   end
 
   test do
