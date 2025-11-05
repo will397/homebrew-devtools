@@ -1,4 +1,4 @@
-# Yalla DevTools Tap
+# Tools Tap
 
 ## Overview
 This tap provides specific versions of common development tools to ensure consistency across the development team.
